@@ -1,0 +1,554 @@
+
+@charset "UTF-8";
+@import url('https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css');
+
+
+/* tipografia y reseteo */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box; }
+
+/* HEADER HEADER HEADER */
+.headerBootstrap {
+  background-color: #000000b7;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0;
+  top: 0; }
+
+.navbar-nav {
+  align-items: flex-end;
+  border-radius: 15px; }
+
+.navbar-expand-lg .navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  justify-content: flex-end; }
+
+.navbar-toggler {
+  background-color: #E072A4;
+  color: #00000000; }
+
+.header a {
+  color: white;
+  text-decoration: none; }
+
+.header ul {
+  list-style: none;
+  border: 1px solid #E072A4;
+  background-color: #E072A4;
+  padding-right: 20px; }
+
+.header img {
+  padding: 20px; }
+
+.logoMovimiento {
+  transition: all 300ms ease;
+  overflow: hidden; }
+
+.logoMovimiento img {
+  transition: all 300ms ease; }
+
+.logoMovimiento img:hover {
+  transform: scale(1.08); }
+
+.header li {
+  display: inline-block;
+  color: white;
+  margin: 5px;
+  border-radius: 9999px;
+  border-width: 1px; }
+
+.header a:hover {
+  color: black;
+  font-weight: bold; }
+
+/* MAIN MAIN MAIN HOME-INICIO */
+/* BANNER HOME */
+.bannerPantalla {
+  width: 100%; }
+
+/* BOTON DE SERVICIOS - HOME */
+
+/* PASTELERIA HOME */
+
+.busqueda{
+  margin: 15PX;
+  text-align: center;
+}
+
+.buscar{
+    width: 70%;
+    height: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px #a19f9f solid;
+    font-size: medium;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+.cartas {
+  display: flex;
+  overflow: hidden;
+  padding: 20px;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* .card{
+  box-shadow: 5px 10px 10px rgba(211, 211, 211, 0.3);
+  border: 1px solid rgba(211, 211, 211, 0.384);
+  border-radius: 30px;
+} */
+
+.card-body{
+  text-align: center;
+}
+
+.card-title{
+  font-size: 35px;
+  color: #555555;
+}
+
+.card-text{
+  font-size: 20px;
+  color: #555555;
+}
+
+
+.btn{
+  --bs-btn-bg: #E072A4;
+  --bs-btn-border-color: #E072A4;
+  --bs-btn-hover-bg: #e73987;
+  --bs-btn-hover-border-color: #e73987;
+}
+
+.card-img-top {
+    text-align: center;
+    font-size: 60px;
+}
+
+
+.precioActual {
+  margin: 15px;
+  padding: 15px;
+  text-align: center;
+  font-size: 18px;
+  color: #555555;
+  line-height: 28px;
+}
+
+.pasteleriaFabiana {
+  margin: 15px;
+  padding: 15px;
+  text-align: center; 
+  color: #E072A4;
+  font-size: 2.5rem;
+}
+
+.listaProductos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  font-size: 30px;
+  color: #555555;
+  line-height: 28px;
+}
+
+.listaProductos li {
+  margin: 15px;
+  text-align: center;
+}
+
+.serviciosCol-2 {
+  width: 90%;
+  float: left;
+  padding: 15px; }
+
+
+.tablaCheck{
+  display: flex;
+  justify-content: space-around;
+  margin: 15px;
+}
+
+.tabla2{
+  margin: 15px;
+}
+
+thead tr {
+  background-color: #E072A4;
+  color: white;
+}
+
+td{
+  border: 1px solid #E072A4;
+}
+
+tbody{
+  text-align: center;
+}
+
+#tablehead{
+  padding: 15px;
+}
+
+.centrarBoton {
+  text-align: center;
+  min-height: 50vh;
+}
+
+#botonDeComprar {
+  width: 200px;
+  height: 40px;
+  border: 1px #E072A4 solid;
+  border-radius: 5px;
+  font-size: medium;
+  padding: 0;
+  margin-bottom: 200px;
+  align-items: center;
+  background-color: #E072A4;
+  color: white;
+}
+
+
+
+/* MAIN MAIN MAIN HOME-FIN */
+/* MAIN MAIN MAIN CONTACTOS-INICIO */
+.contacto {
+  text-align: center;
+  min-height: 80vh; }
+
+.contactoInformacion {
+  margin: 25px;
+  font-size: 25px;
+  color: #E072A4; }
+
+.contactoInformacion p {
+  font-size: 18px;
+  color: #555555;
+  line-height: 28px; }
+
+.nombresContacto {
+  width: 400px;
+  height: 40px;
+  justify-content: space-evenly;
+  border: 1px #ccc solid;
+  border-radius: 5px;
+  font-size: medium;
+  padding: 0;
+  margin: 5px;
+  text-indent: 10px; }
+
+.correosContacto {
+  width: 400px;
+  height: 40px;
+  justify-content: space-evenly;
+  border: 1px #ccc solid;
+  border-radius: 5px;
+  font-size: medium;
+  padding: 0;
+  margin: 5px;
+  text-indent: 10px; }
+
+.mensajesContacto {
+  width: 400px;
+  height: auto;
+  justify-content: space-evenly;
+  border: 1px #ccc solid;
+  border-radius: 5px;
+  font-size: medium;
+  padding: 0;
+  margin: 5px;
+  text-indent: 10px; }
+
+.enviarContacto {
+  width: 200px;
+  height: 40px;
+  justify-content: space-evenly;
+  border: 1px #000000 solid;
+  border-radius: 5px;
+  font-size: medium;
+  padding: 0;
+  margin-bottom: 10px;
+  align-items: center;
+  background-color: #E072A4;
+  color: white; 
+  margin-bottom: 200px;}
+
+.borrarContacto {
+  width: 200px;
+  height: 40px;
+  justify-content: space-evenly;
+  border: 1px #000000 solid;
+  border-radius: 5px;
+  font-size: medium;
+  padding: 0;
+  margin-bottom: 200px;
+  align-items: center;
+  background-color: #E072A4;
+  color: white; }
+
+/* MAIN MAIN MAIN CONTACTOS-FIN */
+/* MAIN MAIN MAIN NOSOTROS-INICIO */
+/* GRID */
+.nosotros {
+  min-height: 80vh; }
+
+.grid-container {
+  max-width: 980px;
+  margin: 100px auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-template-areas: "nosotrosInformacion horario"; }
+
+.nosotrosInformacion {
+  grid-area: nosotrosInformacion;
+  margin: 60px;
+  font-size: 25px;
+  color: #E072A4; }
+
+.nosotrosInformacion h2 {
+  font-size: 55px;
+  color: black; }
+
+.nosotrosInformacion p {
+  font-size: 18px;
+  color: #555555;
+  line-height: 28px; }
+
+.horario {
+  grid-area: horario;
+  margin: 50px;
+  padding: 90px 90px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #E072A4; }
+
+.horario p {
+  width: 400px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold; }
+
+/* MAIN MAIN MAIN NOSOTROS-FIN */
+/* MAIN MAIN MAIN RESERVA TU HORA-INICIO */
+.productosA {
+  text-align: center; }
+
+.productosAInformacion {
+  margin: 25px;
+  font-size: 25px;
+  color: #E072A4; }
+
+.productosAInformacion h2 {
+  font-size: 55px;
+  color: black; }
+  
+
+.productosAInformacion p {
+  font-size: 18px;
+  color: #555555;
+  line-height: 28px;
+  text-align: left;
+  width: auto;
+  height: auto;
+  display: inline-block; }
+
+.productoSuscribirte {
+  height: 30px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.productoSuscribirte label {
+  margin: 8px; }
+
+
+.productoColor {
+  color: #555555; }
+
+/* MAIN MAIN MAIN RESERVA TU HORA-FIN */
+/* MAIN MAIN MAIN SERVICIOS-INICIO */
+.nuestrosServicios {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto; }
+
+.serviciosInformacion {
+  text-align: center;
+  height: 15px;
+  width: 100%;
+  align-items: center;
+  display: inline-block;
+  color: #E072A4; }
+  .serviciosInformacion h1 {
+    font-size: 2.5rem; }
+
+.serviciosInformacion h1:hover {
+  color: black;
+  transition: .2s;
+  transform: skew(-15deg); }
+
+.serviciosPublicos {
+  width: 320px;
+  height: 340px;
+  box-shadow: 0 2px 2px #00000033;
+  margin: 40px;
+  box-shadow: 0 4px 8px 5px #c29029;
+  border-radius: 20px;
+  transition: all 500ms ease;
+  overflow: hidden; }
+
+.nuestrosServicios img {
+  width: 320px;
+  height: 200px;
+  padding: 0;
+  margin: 0;
+  border-radius: 20px 20px 0 0;
+  transition: all 500ms ease; }
+
+.nuestrosServicios img:hover {
+  transform: scale(1.08); }
+
+.nuestrosServicios p {
+  font-size: 18px;
+  text-align: center;
+  margin: auto;
+  padding: 5px;
+  color: #555555; }
+
+.youtube {
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  margin: 0; }
+
+.botonMain {
+  width: 100%;
+  display: inline-block;
+  margin: 0 0 10px 0; }
+
+.serviciosCol-1 {
+  width: 100%;
+  float: left;
+  padding: 15px; }
+
+.serviciosRow::after {
+  content: "";
+  display: table;
+  min-height: 30vh; }
+
+/* MAIN MAIN MAIN SERVICIOS-FIN */
+/* FOOTER FOOTER FOOTER */
+.footer {
+  background-color: #000000;
+  display: flex;
+  padding: 0;
+  color: white;
+  list-style: none;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.footer ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0; }
+
+.footer li {
+  margin: 0;
+  color: #E072A4; }
+
+.footerHorizontal {
+  display: flex; }
+
+.footerHorizontal section {
+  margin: 10px 60px 0 60px;
+  text-align: center; }
+
+.footer a {
+  color: #E072A4;
+  text-decoration: none; }
+
+.footer h3 {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold; }
+
+.footer img {
+  padding: 10px; }
+
+.footer a:hover {
+  color: white;
+  font-weight: bold; }
+
+  /* MEDIAS QUERY */
+/* dispositivos medianos */
+@media (max-width: 1110px) {
+  .grid-container {
+    display: flex;
+    flex-direction: column; }
+  .horario {
+    justify-content: space-evenly; } }
+
+@media (max-width: 992px) {
+  .footer {
+    flex-direction: column; }
+  iframe {
+    width: 60%; }
+  .header {
+    flex-direction: column; } }
+
+@media (max-width: 830px) {
+  .footerHorizontal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+  .footerHorizontal section {
+    margin: 10px 60px 0 60px;
+    text-align: center; } }
+
+@media (max-width: 500px) {
+  .footerHorizontal {
+    display: flex;
+    flex-direction: column; }
+  .horario p {
+    width: auto; } }
+
+/* dispositivos pequeños */
+@media (max-width: 420px) {
+  .nombresContacto {
+    width: 300px; }
+  .correosContacto {
+    width: 300px; }
+  .mensajesContacto {
+    width: 300px; }
+  .reservaCabello {
+    width: 300px; }
+  .reservaTelefono {
+    width: 300px; } }
+
+@media (max-width: 350px) {
+  .nosotrosInformacion h2 {
+    font-size: 43px; } 
+  .tablaCheck {
+      font-size: 12px; }}

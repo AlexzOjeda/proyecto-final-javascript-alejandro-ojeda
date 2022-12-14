@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords"
+        content="Pasteleria fabiana, pasteles, Muffins, cupcakes, tortas, postres, dulce, pastel, decoracion de pasteles, decoracion de tortas">
+    <meta name="description"
+        content="Pasteleria de fabiana donde se preparan los mas ricos y exquisitas tortas decoradas para cumpleaños y ocaciones especiales">
+
+    <link rel="shortcut icon" href="./img/icono-pasteleria.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css" />
+    <script defer src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script defer src="js/index.js"></script>
+    <script src="js/template.js"></script>
+    
+
+    <title>Pasteleria Fabiana</title>
+</head>
+
+<body>
+
+    <!-- HEADER - barra de navegacion con bootstrap tipo hamburgesa y menu -->
+
+    <header class="headerBootstrap">
+
+        <nav class="navbar navbar-expand-lg header">
+
+            <div class="container-fluid">
+
+                <a href="./index.html" class="logoMovimiento">
+                    <img src="./img/logo-pasteleria3.png" alt="logo de barberia" width="160" height="160" />
+                </a>
+
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/checkout.html"> 🛒 </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- MAIN - Agregado los elementos del main para mostrar inforamcion al cliente -->
+
+    <main>
+
+        <div>
+            <img src="./img/banner2.png" alt="banner" class="bannerPantalla">
+        </div>
+
+        <div class="busqueda">
+            <input type="search" id="inputSearch" placeholder="Ingresa tu producto" class="buscar">
+        </div>
+
+        <div class="cartas" id="cartas">
+        </div>
+
+        <div class="precioActual">
+            <p> Por favor presionar boton de " Comprar " en algun producto y revisar su compra en el carrito </p>
+            <br>
+        </div>
+
+    </main>
+
+    <!-- FOOTER - Informacion complementaria y accesos directos -->
+
+    <footer class="footer">
+        <a href="./index.html" class="logoMovimiento">
+            <img src="./img/logo-pasteleria3.png" alt="logo de barberia" width="120" height="120" />
+        </a>
+        <div class="footerHorizontal">
+            <section>
+                <h3>CONTACTO</h3>
+                <ul>
+                    <li>
+                        <a href="./pages/contacto.html">Contacto</a>
+                    </li>
+                    <li>
+                        <a href="./pages/servicios.html">Servicios</a>
+                    </li>
+                    <li>
+                        <a href="./pages/productos.html">Productos</a>
+                    </li>
+                    <li>
+                        <a href="./pages/nosotros.html">Nosotros</a>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <h3>INFORMACION</h3>
+                <ul>
+                    <li>Direccion</li>
+                    <li>Pasteleria@gmail.com</li>
+                    <li>+569 9999 9999</li>
+                </ul>
+            </section>
+            <section>
+                <h3>REDES SOCIALES</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com/" target="_blank">FACEBOOK</a></li>
+                    <li><a href="https://www.whatsapp.com/" target="_blank">WHATSAPP</a></li>
+                    <li><a href="https://www.youtube.com/" target="_blank">YOUTUBE</a></li>
+                </ul>
+            </section>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

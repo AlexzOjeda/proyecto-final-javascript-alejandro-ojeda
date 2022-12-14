@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "imagen": "🎂",
+        "nombre": "tortas",
+        "precio": 100
+    },
+    {
+        "id": 2,
+        "imagen": "🧁",
+        "nombre": "cupcakes",
+        "precio": 2
+    },
+    {
+        "id": 3,
+        "imagen": "🥞",
+        "nombre": "muffins de chocolate",
+        "precio": 5
+    },
+    {
+        "id": 4,
+        "imagen": "🍰",
+        "nombre": "postres",
+        "precio": 8
+    },
+    {
+        "id": 5,
+        "imagen": "🥐",
+        "nombre": "pan de dulce",
+        "precio": 4
+    }
+]
